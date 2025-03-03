@@ -1,0 +1,6 @@
+[submodule "NRG_AI_NeuroOnco_segment"]
+	path = NRG_AI_NeuroOnco_segment
+	url = https://github.com/mckellwoodland/NRG_AI_NeuroOnco_segment
+[submodule "NRG_AI_NeuroOnco_preproc"]
+	path = NRG_AI_NeuroOnco_preproc
+	url = https://github.com/mckellwoodland/NRG_AI_NeuroOnco_preproc
