@@ -24,7 +24,7 @@ docker pull satrajit2012/nrg_ai_neuroonco_preproc:v0
 docker pull satrajit2012/nrg_ai_neuroonco_segment:v0
 ```
 
-As the BraTS 2021 training data is already organized in NIfTI, the first step (Two-stage scan-type classifiers) was skipped. 
+As the BraTS 2021 training data is already organized in NIfTI, co-registered to the same anatomical space, and skull-stripped ([source](https://www.med.upenn.edu/cbica/brats2021/#Data2)), the first stage (Pre-processing) was skipped. 
 To accomodate this skipping, a `custom_flag.txt` file containing the line `segmentation_ready=true` was placed in the `output_root` file.
 
 # References
