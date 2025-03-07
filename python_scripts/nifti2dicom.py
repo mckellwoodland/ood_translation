@@ -81,11 +81,7 @@ if __name__=="__main__":
                 
                 # Read in image and get data.
                 img = nib.load(path.join(args.in_dir, session_id, nfti_file))
-                try:
-                    img_data = img.get_fdata()
-                except Exception as e:
-                    print(f"Error processing file: {path.join(args.in_dir, session_id, nfti_file)}")
-                    print(f"Exception: {e}")
+                img_data = img.get_fdata()
                 img_header = img.header
                 origin_x = img_header['qoffset_x']
                 origin_y = img_header['qoffset_y']
