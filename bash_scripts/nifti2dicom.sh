@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Required arguments.
-IN="data/BraTS2021_Training_Data/"
-OUT="data/BraTS2021_Training_Data_DICOM/"
+IN=""
+OUT=""
 
 # Run script.
 docker run --rm \
